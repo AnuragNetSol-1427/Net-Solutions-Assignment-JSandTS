@@ -11,14 +11,14 @@
     <div class="container">
         <h2>Signup Form</h2>
         <div class="form">
-            <form action="#">
+            <form name="myForm" onsubmit="return validateForm()" method="post" action="#">
                 <div class="name">
                     <label for="username">Username: </label>
-                    <input type="text" placeholder="Enter your name" id="username">
+                    <input type="text" placeholder="Enter your name" id="username" name="username">
                 </div>
                 <div class="email">
                     <label for="email">Email: </label>
-                    <input type="email" placeholder="Enter your email" id="email">
+                    <input type="email" placeholder="Enter your email" id="email" name="email">
                 </div>
                 <div class="number">
                     <label for="number">Phone Number: </label>
@@ -26,17 +26,19 @@
                 </div>
                 <div class="password">
                     <label for="password">Password: </label>
-                    <input type="password" placeholder="Enter your number" id="password">
+                    <input type="password" placeholder="Enter your number" id="password" name="password">
                 </div>
                 <div class="confirm_password">
                     <label for="confirm-password">Confirm Password: </label>
-                    <input type="password" placeholder="Confirm your password" id="confirm-password">
+                    <input type="password" placeholder="Confirm your password" id="confirm-password" name="confirm_password">
                 </div>
                 <div class="btn">
-                    <button type="button">Submit</button>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </div>
     </div>
+
 </body>
+<script src="./script.js"></script>
 </html>

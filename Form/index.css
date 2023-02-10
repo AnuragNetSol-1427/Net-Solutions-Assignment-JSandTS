@@ -23,7 +23,7 @@
     border: 1px solid black;
     margin-top: 80px;
     border-radius: 50px;
-    padding: 35px;
+    padding: 25px;
 }
 
 .name, .email, .number, .password, .confirm_password{
