@@ -21,6 +21,8 @@ background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8f
     color: black;
 }
 
+/* Form */
+
 .form{
     border: 1px solid black;
     margin-top: 80px;
